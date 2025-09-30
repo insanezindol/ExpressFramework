@@ -105,7 +105,3 @@ Express server has started on port 3000
 -   Node.js 버전: 호환 가능한 버전
 -   Express.js 버전: 3.2.6
 -   포트: 3000
-
-## 라이센스
-
-이 프로젝트는 private 프로젝트입니다.
