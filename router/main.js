@@ -1,9 +1,13 @@
-module.exports = function(app)
-{
-     app.get('/',function(req,res){
-        res.render('index.html')
-     });
-     app.get('/about',function(req,res){
-        res.render('about.html');
-    });
-}
+const express = require('express');
+
+const router = express.Router();
+
+router.get('/', (req, res) => {
+	res.render('index.html');
+});
+
+router.get('/about', (req, res) => {
+	res.render('about.html');
+});
+
+module.exports = router;
